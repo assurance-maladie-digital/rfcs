@@ -1,5 +1,5 @@
 - Date de début : 30/08/2022
-- Version majeure cible : Design system v3
+- Version majeure cible : Design System v3
 - PR d'implémentation : N/A
 
 ## Résumé
@@ -34,9 +34,9 @@ En utilisant un dépôt qui héberge directement le template, on pert le fait de
 
 La suppression des options oblige également l'utilisateur qui crée un nouveau projet à modifier manuellement le titre et la description de son projet aux différents endroits où ils sont définis. Cependant, cela devrait améliorer les applications car actuellement, ces valeurs sont générées automatiquement et les utilisateurs ne les modifient pas, bien qu'elles ne soient pas forcément adaptées à leur projet.
 
-Puisque le template dans le dépôt sera exactement le même que celui des nouveaux projets, l'utilisateur devra supprimer manuellement la configuration permettant d'exécuter les tests sur la CI.
+Puisque le contenu du dépôt sera exactement le même que celui des nouveaux projets, l'utilisateur devra supprimer manuellement la configuration permettant d'exécuter les tests sur la CI, ainsi que modifier le titre de l'application et mettre à jour le Readme.
 
-La procédure à suivre pour « nettoyer » le projet devra être documentée dans une section spécifique du fichier Readme du template.
+La procédure à suivre pour « nettoyer » le projet devra être documentée dans une section spécifique du fichier Readme du template, ainsi que dans la documentation associée au Starter Kit.
 
 ## Alternatives
 

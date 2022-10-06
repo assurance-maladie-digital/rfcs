@@ -40,7 +40,7 @@ Quelles autres solutions ont été envisagées ? Quel est l'impact de ne pas fai
 
 Si nous implémentons cette proposition, comment est-ce que les développeurs des projets existants pourront l'adopter ? Est-ce un changement bloquant ? Est-ce que cela affecte les autres projets de l'écosystème ?
 
-# Questions non résolues
+## Questions non résolues
 
 Cette section est facultative, mais suggérée pour les premiers brouillons.
 Quelles parties de la proposition sont encore à déterminer ?

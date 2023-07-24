@@ -8,7 +8,7 @@ Cette RFC propose l'ajout de l'[API Composition] comme syntaxe alternative à la
 
 ## Motivation
 
-L'API Composition de Vue offre plusieurs avantages par rapport à [Vue Class Component], notamment :
+L'API Composition de Vue offre plusieurs avantages par rapport à la syntaxe de classes [Vue Class Component], notamment :
 
 Meilleure séparation des préoccupations : 
 L'API Composition permet de séparer clairement la logique de l'état et du comportement du composant des détails de la configuration et des options de Vue, ce qui rend le code plus facile à comprendre et à maintenir.

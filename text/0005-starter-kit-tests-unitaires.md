@@ -74,6 +74,8 @@ Cypress, en revanche, est un framework de test de bout en bout conçu pour teste
 
 En résumé, Vitest est un bon choix pour les développeurs qui veulent se concentrer sur les tests unitaires et le développement rapide, tandis que Cypress est un bon choix pour les développeurs qui veulent tester l'ensemble de l'application et avoir une couverture de test plus complète. En fin de compte, le choix entre Vitest et Cypress dépendra des besoins et des objectifs spécifiques du projet.
 
+D'autres alternatives existent comme [Jasmine][Jasmine], [Mocha][Mocha] mais elles ne semblent pas être aussi intéressantes que Vitest et Cypress.
+
 ## Stratégie d'adoption
 
 Ce changement concerne la création de nouveaux projets et les projets existants pourront rester sur JEST ou faire le choix de la migration vers Vitest, Cypress, ou les deux, en fonction de leurs besoins spécifiques.
@@ -82,3 +84,5 @@ Ce changement concerne la création de nouveaux projets et les projets existants
 [nuxt-vitest]: https://nuxt.com/modules/vitest
 [Cypress]: https://www.cypress.io/
 [JEST]: https://jestjs.io/
+[Jasmine]: https://jasmine.github.io/
+[Mocha]: https://mochajs.org/

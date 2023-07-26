@@ -26,7 +26,7 @@ En somme, l'API Composition est une approche plus moderne et plus efficace pour 
 
 ## Conception détaillée
 
-Pour les projets existants, l'API Composition pourra être ajoutée à Vue en tant que nouvelle fonctionnalité. Elle sera accessible via le module `@vue/composition-api`.
+L'API Composition sera intégrée à Vue comme une fonctionnalité native, et pourra être accessible via le module `@vue/composition-api`.
 
 Les fonctions de composition seront utilisées pour définir la logique de l'état et du comportement du composant. Les hooks de composition seront utilisés pour la gestion du cycle de vie du composant.
 
@@ -58,16 +58,19 @@ export default {
 
 ## Désavantages
 
-L'ajout de cette API peut augmenter la complexité de Vue pour les nouveaux utilisateurs. Les développeurs familiers avec Vue peuvent trouver l'API Composition plus difficile à comprendre et à utiliser que la syntaxe de modèle familière.
+L'API Composition peut augmenter la complexité les développeurs, qui devront apprendre une nouvelle manière de structurer leurs composants. 
+
+L'ensemble des composants existants devront également être migrés vers l'API Composition, ce qui peut être une tâche fastidieuse et source d'erreurs.
 
 ## Alternatives
 
-Une alternative serait de ne pas ajouter l'API Composition et de continuer à utiliser la syntaxe de classes pour structurer les composants. Cependant, cela ne permettrait pas aux développeurs de bénéficier des avantages offerts par l'API Composition.
+Une alternative serait de ne pas ajouter l'API Composition et de continuer à utiliser la syntaxe de classes pour structurer les composants.
 
 ## Stratégie d'adoption
 
-Les développeurs des projets existants pourront adopter l'API Composition en important le module @vue/composition-api et en utilisant les fonctions de composition dans leurs composants.
-Pour les nouveaux projets, l'API Composition sera activée par défaut.
+Les développeurs des projets existants pourront adopter l'API Composition en important le module @vue/composition-api et en utilisant les fonctions de composition dans leurs composants. Pour les nouveaux projets, l'API Composition sera activée par défaut.
+
+Il est également possible d'utiliser le projet vue-class-component pour les projets qui souhaitent continuer à utiliser la syntaxe de classes. Cependant, nous recommandons aux développeurs de migrer vers l'API Composition pour bénéficier de ses avantages.
 
 [API Composition]: https://vuejs.org/guide/extras/composition-api-faq.html
 [Vue Class Component]: https://class-component.vuejs.org/

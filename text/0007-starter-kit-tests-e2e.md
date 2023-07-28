@@ -4,7 +4,7 @@
 
 ## Résumé
 
-Cette RFC propose l'utilisation de [Playwrite][Playwrite] pour mettre en place des tests end-to-end (e2e) pour le Starter Kit Vue, en remplacement de Cypress.
+Cette RFC propose l'utilisation de [Playwright][Playwright] pour mettre en place des tests end-to-end (e2e) pour le Starter Kit Vue, en remplacement de Cypress.
 Playwright est une bibliothèque de test moderne qui permet de simuler des actions utilisateur et des interactions avec une application web, dans le but de s'assurer que l'application fonctionne correctement et que les fonctionnalités sont conformes aux attentes.
 
 ## Motivation
@@ -13,12 +13,12 @@ Les tests e2e sont essentiels pour s'assurer du bon fonctionnement d'une applica
 
 Cypress est une bibliothèque de test populaire pour les tests e2e dans les applications web. Cependant, Playwright offre des fonctionnalités plus avancées que Cypress, tels que la prise en charge des navigateurs multiplateformes, la possibilité de capturer des captures d'écran et des vidéos des tests, et la capacité de simuler des interactions utilisateur plus complexes.
 
-Playwrite semble être un choix naturel pour les tests e2e dans le Starter Kit Vue, car il est plus moderne et plus avancé que Cypress.
+Playwright semble être un choix naturel pour les tests e2e dans le Starter Kit Vue, car il est plus moderne et plus avancé que Cypress.
 
 ## Conception détaillée
 
 Playwright sera utilisé par défaut sur les nouveaux projets pour mettre en place des tests e2e.
-Pour les projets existants, les utilisateurs devront [installer Playwrite][yarn create playwright].
+Pour les projets existants, les utilisateurs devront [installer Playwright][yarn create playwright].
 
 Par exemple, pour créer un test e2e qui vérifie que la page d'accueil de l'application est accessible et contient un titre spécifique, on peut écrire le code suivant :
 
@@ -70,7 +70,7 @@ Les tests e2e peuvent être intégrés dans un pipeline de CI/CD pour s'assurer 
 
 Une fois que les développeurs sont à l'aise avec Playwright, il est possible de remplacer progressivement les tests existants écrits avec Cypress par des tests écrits avec Playwright.
 
-[Playwrite]: https://playwright.dev/
+[Playwright]: https://playwright.dev/
 [Cypress]: https://www.cypress.io/
 [TestCafé]: https://devexpress.github.io/testcafe/
 [Puppeteer]: https://pptr.dev/

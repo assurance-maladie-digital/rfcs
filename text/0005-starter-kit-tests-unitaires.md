@@ -1,6 +1,6 @@
 - Date de début : 21/07/2023
 - Version majeure cible : v3
-- PR d'implémentation :
+- PR d'implémentation : N/A
 
 ## Résumé
 

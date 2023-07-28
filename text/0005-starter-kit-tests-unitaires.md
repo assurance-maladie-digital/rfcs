@@ -8,8 +8,6 @@ Utilisation de [Vitest][Vitest] (tests unitaires) pour le Starter Kit Vue.
 
 ## Exemple simple
 
-### Vitest
-
 ```js
 import { describe, it, expect } from "vitest";
 import { mount } from "@vue/test-utils";
@@ -34,14 +32,14 @@ La nouvelle structure du projet étant basée sur Vite, Vitest semble être un c
 
 ## Conception détaillée
 
-Les utilisateurs devront [installer vitest][pnpm add -D vitest] avant de créer un nouveau projet.
+Vitest sera utilisé par défaut sur les nouveaux projets pour mettre en place des tests unitaires.
+
+Pour les projets existants, les utilisateurs devront [installer vitest][yarn add -D vitest].
 NB : un plugin existe également pour Nuxt : [nuxt-vitest][nuxt-vitest]
 
 Pour utiliser Vitest, les utilisateurs peuvent utiliser la syntaxe et les fonctions Jest existantes, car Vitest offre une compatibilité avec la plupart des API et des bibliothèques d'écosystème Jest. Un guide de migration est disponible [ici][migration-guide].
 
 Il est possible d'utiliser Jest avec Vite : [vite-jest][vite-jest], mais avoir deux pipelines différents à configurer et à maintenir peut être une source de confusion pour les développeurs.
-
-Si un utilisateur souhaite migrer un projet existant, il devra supprimer le répertoire `node_modules` de son projet ainsi que le fichier `yarn.lock`, puis exécuter la commande `pnpm install` et commiter le résultat.
 
 ## Désavantages
 

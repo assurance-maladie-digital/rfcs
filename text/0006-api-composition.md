@@ -20,7 +20,7 @@ Meilleure compatibilité avec les outils modernes :
 L'API Composition est mieux adaptée aux outils modernes tels que TypeScript et les linters, car elle permet de définir des types pour les propriétés et les fonctions de composition, ce qui facilite la détection des erreurs de code et améliore la qualité du code.
 
 Amélioration de la lisibilité : 
-L'API Composition permet de définir la logique d'un composant de manière plus sous la forme de fonctions de composition plutôt que de propriétés et de méthodes imbriquées, ce qui facilite la lecture et la compréhension du code.
+L'API Composition permet de définir la logique d'un composant de manière plus simple sous la forme de fonctions de composition plutôt que de propriétés et de méthodes imbriquées, ce qui facilite la lecture et la compréhension du code.
 
 En somme, l'API Composition est une approche plus moderne et plus efficace pour structurer les composants Vue, offrant une meilleure séparation des préoccupations, une meilleure réutilisabilité du code, une meilleure compatibilité avec les outils modernes et une amélioration de la lisibilité du code.
 
@@ -58,7 +58,7 @@ export default {
 
 ## Désavantages
 
-L'API Composition peut augmenter la complexité les développeurs, qui devront apprendre une nouvelle manière de structurer leurs composants. 
+L'API Composition peut augmenter la complexité pour les développeurs, qui devront apprendre une nouvelle manière de structurer leurs composants. 
 
 L'ensemble des composants existants devront également être migrés vers l'API Composition, ce qui peut être une tâche fastidieuse et source d'erreurs.
 
